@@ -1,0 +1,160 @@
+.dataTables_length select,
+.dataTables_wrapper select,
+.dataTables_length input,
+.dataTables_wrapper input {
+    background-color: #f9f9f9;
+    border: 1px solid #999;
+    border-radius: 4px;
+    height: 3rem;
+    line-height: 2;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.dataTables_length .dataTables_length,
+.dataTables_wrapper .dataTables_length,
+.dataTables_length .dataTables_filter,
+.dataTables_wrapper .dataTables_filter {
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+table.dataTable thead .sorting {
+    background-image: url(https://i.imgur.com/5su6nzl.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: url(https://i.imgur.com/74wtivo.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+table.dataTable thead .sorting_desc {
+    background-image: url(https://i.imgur.com/hWDcMbf.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.paginate_button {
+    min-width: 4rem;
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 1.6rem;
+    margin-top: -1rem;
+    border: 2px solid lightblue;
+}
+
+.paginate_button:not(.previous) {
+    border-left: none;
+}
+
+.paginate_button.previous {
+    border-radius: 8px 0 0 8px;
+    min-width: 7rem;
+}
+
+.paginate_button.next {
+    border-radius: 0 8px 8px 0;
+    min-width: 7rem;
+}
+
+.paginate_button:hover {
+    cursor: pointer;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+/* card jogadores */
+
+.green {
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+}
+
+.yellow {
+    background-color: rgba(223, 177, 41, 0.7);
+    color: white;
+}
+
+.purple {
+    background-color: rgba(204, 102, 204, 0.3);
+    color: white;
+}
+
+.nullpurple {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  .nullyellow {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  .nullgreen {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+
+td {
+    color: white;
+}
+
+.cls-1,
+.cls-2 {
+    fill: currentColor;
+}
+
+.cls-2 {
+    fill-rule: evenodd;
+}
+
+
+.my-container {
+    column-count: 3;
+    column-gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.legend-content {
+    display: flex;
+    column-gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-column {
+    break-inside: avoid-column;
+}
+
+.itens-test {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.itens-test a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.iconnw {
+    padding-right: 10px;
+}
+
+
+.is-siteLoading {
+    visibility: hidden;
+}
+
+.id_04043ca5-a106-4acc-94b7-40ebe1c6a3b3 {
+    background-color: currentColor;
+}
